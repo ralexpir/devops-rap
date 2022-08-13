@@ -6,6 +6,6 @@ app = Flask(__name__)
 
 def pagina_inicial():
     return "Hello World Customizado"
-
+    
 if __name__ == '__main__':
     app.run()

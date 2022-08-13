@@ -5,7 +5,6 @@ app = Flask(__name__)
 @app.route("/")
 def pagina_inicial():
     return "Hello World"
-
 #def menu():
 #    continuar=1
 #    while continuar:
